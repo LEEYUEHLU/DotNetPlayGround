@@ -8,11 +8,6 @@ namespace Solution
     [TestFixture]
     public class LeetCodeSolutions
     {
-        [SetUp]
-        public void SetUp()
-        {
-        }
-
         [Test]
         public void ReturnTwoSumIndex_GivenArray2n7n11n15AndTarget_Return0n1(){
             TwoSumSolution twoSumSolution = new TwoSumSolution();
